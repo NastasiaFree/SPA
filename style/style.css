@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    
+}
+
+#root {
+    padding:0 100px;
+}
+
+.header_component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 2px solid rgb(13, 77, 11);;
+}
+.card_img {
+    width: 200px;
+    height: 200px;
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    color: red;
+    list-style: none;
+    
+    
+}
+
+.nav li:hover {
+    border-bottom: 2px solid rgb(7, 105, 24);
+}
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.card_widget {
+    /* border: 2px solid rgb(7, 105, 24); */
+    border-radius: 30px;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 4px 2px 8px rgb(7, 105, 24);
+    
+}
+.card_widget a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.home_component {
+     background: url(https://24shop.by/upload/iblock/adc/adc4337619b1d73cf15005d315e4886b.jpg) no-repeat center;
+    height: 400px;
+}
+.home {
+   
+    color: #ffffff;
+    font-size: 23px;
+    line-height: 60px;
+    
+    padding: 50px;
+    
+}
+
+/* .card_widget:before {
+    font-family: icomoon!important;
+    content: "\E911";
+    font-size: 32px;
+    color: #cacaca;
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    font-size: 24px;
+} */
+/* ul>li>a {
+   
+} */
+/* .inst {
+    background: url(https://24shop.by/images/ico-instagram.png); 
+    
+}*/
+.social li {
+    list-style: none;
+    display: inline-block;
+    
+} 
+.social {
+    padding-inline-start: 0px;
+    margin-top: 20px;
+}
+.social li :not(last child) {
+    margin-right: 10px;
+    
+} 
+
+.footer_component {
+    border-top: 2px solid rgb(13, 77, 11);
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.info, .cont {
+    width: 350px;
+    font-size: 13px;
+}
+
+
+.about_component h1, .about_component p {
+    margin-bottom: 20px;
+}
+.about_component {
+    line-height: 26px;
+    /* border-bottom: 1px solid black; */
+    padding: 30px;
+   }
+
+
+.catalog_component {
+    padding: 50px;
+   }
+.catalog_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:15px;
+    padding: 20px 0;
+    /* margin-bottom: 50px; */
+}
+.card {
+    /* border: 1px solid grey; */
+    box-shadow: 4px 3px 8px rgba(7, 105, 23, 0.445);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    gap: 6px;
+    
+}
+.card_title a {
+    color: rgb(8, 83, 8);
+}
+.card_price {
+    font-weight: bold;
+}
+.card button {
+    background-color: rgb(11, 119, 29);
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
+}
+.card .btn_dis {
+    background-color: rgb(213, 224, 221);
+    border: 0;
+    color: rgb(77, 59, 59);
+}
+
+/* .card button :disabled {
+    background-color: rgb(223, 219, 33);
+    color: #fff;
+    padding: 5px;
+} */
+
+.main_component {
+    padding: 30px;
+}
+.item_component {
+    /* height: 300px;*/
+    padding: 30px;
+    box-shadow: 4px 3px 8px rgba(7, 105, 23, 0.445);
+    width: 70%;
+    margin-bottom: 40px;
+} 
+.item_component * {
+    margin-bottom: 20px;
+}
+.item_img {
+    height: 300px;
+}
+
+.card_items {
+    background: #f1f1f1;
+    padding: 30px;
+    margin-bottom: 20px;
+    
+}
+.card_item {
+    padding: 20px;
+    box-shadow: 11px 5px 8px rgba(134, 143, 139, 0.651);
+    /* display: grid;
+    grid-template-columns: repeat(4, 1f); */
+    /* grid-template-rows: repeat(2, 1fr); */
+    margin-bottom: 10px;
+    background: #fff;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 2fr 6fr 1fr 2fr 1fr;
+    align-items: center;
+    align-self: right;
+}
+.item_image img {
+    height: 100px;
+    max-width: 200px;
+    
+}
+.item_image {
+    margin: 0 auto;
+}
+.card_item input {
+    width: 40px;
+    height: 20px;
+}
+.card_item h2 {
+    max-width: 500px;
+}
+.total_price {
+    font-weight: bold;
+    font-size: 23px;
+}
